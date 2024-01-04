@@ -1,0 +1,119 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+header {
+    font-size: 32px;
+    margin-bottom: 20px;
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    justify-content: center;
+    display: flex;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.note-container {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.note {
+    font-style: italic;
+    color: #555;
+    margin: 0;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+#hasilKeliling {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    outline: none; 
+}
+#hasilLuas {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    outline: none; 
+}
