@@ -8,7 +8,7 @@ function hitungKeliling() {
     document.getElementById('hasilKeliling').innerText = "Keliling Segitiga: " + hasil;
 }
 //fungsi untuk reset form pada halaman keliling
-function resetForm() {
+function resetFormk() {
     document.getElementById('sisiA').value = '';
     document.getElementById('sisiB').value = '';
     document.getElementById('sisiC').value = '';
